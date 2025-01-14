@@ -1,0 +1,149 @@
+body {
+      font-family: sans-serif;
+      margin: 20px;
+      background-color: #333;
+      color: #f0f0f0;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 2em;
+      margin-bottom: 5px;
+      color: #f0f0f0;
+    }
+
+    h2 {
+      margin-top: 0;
+      color: #f0f0f0;
+    }
+
+    h3 {
+      text-align: center;
+      font-size: 1em;
+      margin-bottom: 20px;
+      color: #ccc;
+    }
+
+    .request-form, .request-list, .approval-list, .team-management, .insights-section {
+      margin-bottom: 20px;
+      border: 1px solid #555;
+      padding: 15px;
+      border-radius: 5px;
+      background-color: #444;
+    }
+
+    .request-form label, .request-form select, .request-form textarea, .request-form input, .request-form button {
+      display: block;
+      margin-bottom: 10px;
+      color: #f0f0f0;
+    }
+
+    .request-form select, .request-form input[type="time"], .request-form input[type="date"] {
+      width: 200px;
+      padding: 8px;
+      background-color: #555;
+      color: #f0f0f0;
+      border: 1px solid #777;
+      box-sizing: border-box;
+    }
+
+    .request-form textarea {
+      width: 100%;
+      padding: 8px;
+      background-color: #555;
+      color: #f0f0f0;
+      border: 1px solid #777;
+      box-sizing: border-box;
+    }
+
+    .request-list table, .approval-list table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    .request-list th, .request-list td, .approval-list th, .approval-list td {
+      border: 1px solid #555;
+      padding: 8px;
+      text-align: left;
+    }
+
+    .request-list th, .approval-list th {
+      background-color: #666;
+    }
+
+    .approval-list td button {
+      margin-right: 5px;
+      background-color: #777;
+      color: #f0f0f0;
+      border: none;
+      padding: 5px 10px;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+
+    .approval-list td button:hover {
+      background-color: #999;
+    }
+
+    button {
+      background-color: #777;
+      color: #f0f0f0;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-right: 5px;
+    }
+
+    button:hover {
+      background-color: #999;
+    }
+
+    .team-management input {
+      width: 200px;
+      padding: 8px;
+      background-color: #555;
+      color: #f0f0f0;
+      border: 1px solid #777;
+      box-sizing: border-box;
+      margin-bottom: 10px;
+      margin-right: 5px;
+    }
+
+    .team-management ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .team-management li {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 8px 0;
+      border-bottom: 1px solid #555;
+    }
+
+    .team-management li:last-child {
+      border-bottom: none;
+    }
+
+    .team-management li button {
+      margin-left: 5px;
+    }
+
+    .collapsible-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      cursor: pointer;
+      padding: 10px 0;
+    }
+
+    .collapsible-content {
+      overflow: hidden;
+      transition: max-height 0.3s ease-out;
+    }
+
+    .collapsible-content.collapsed {
+      max-height: 0;
+    }
